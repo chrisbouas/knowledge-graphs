@@ -1,0 +1,166 @@
+
+
+{
+    "actors": [
+        {
+            "id":"nm0000001",
+            "primaryName": "Fred Astaire",
+            "birthYear": "1899",
+            "knownForTitles": [
+                "tt0072308","tt0053137","tt0050419","tt0031983"
+            ]
+        },
+        {
+            "id":"nm0000002",
+            "primaryName": "Lauren Bacall",
+            "birthYear": "1924",
+            "knownForTitles": [
+                "tt0071877","tt0117057","tt0037382","tt0038355"
+            ]
+        },
+        {
+            "id":"nm0000003",
+            "primaryName": "Brigitte Bardot",
+            "birthYear": "1934",
+            "knownForTitles": [
+                "tt0054452","tt0057345","tt0049189","tt0056404"
+            ]
+        },
+        {
+            "id":"nm0000004",
+            "primaryName": "John Belushi",
+            "birthYear": "1949",
+            "knownForTitles": [
+                "tt0072562","tt0078723","tt0080455","tt0077975"
+            ]
+        },
+        {
+            "id":"nm0000005",
+            "primaryName": "Ingmar Bergman",
+            "birthYear": "1918",
+            "knownForTitles": [
+                "tt0060827","tt0050976","tt0050986","tt0083922"
+            ]
+        },
+        {
+            "id":"nm0000006",
+            "primaryName": "Ingrid Bergman",
+            "birthYear": "1915",
+            "knownForTitles": [
+                "tt0077711","tt0038109","tt0036855","tt0034583"
+            ]
+        },
+        {
+            "id":"nm0000007",
+            "primaryName": "Humphrey Bogart",
+            "birthYear": "1899",
+            "knownForTitles": [
+                "tt0042593","tt0043265","tt0034583","tt0037382"
+            ]
+        },
+        {
+            "id":"nm0000008",
+            "primaryName": "Marlon Brando",
+            "birthYear": "1924",
+            "knownForTitles": [
+                "tt0047296","tt0078788","tt0070849","tt0068646"
+            ]
+        },
+        {
+            "id":"nm0000009",
+            "primaryName": "Richard Burton",
+            "birthYear": "1925",
+            "knownForTitles": [
+                "tt0057877","tt0059749","tt0061184","tt0087803"
+            ]
+        },
+        {
+            "id":"nm0000010",
+            "primaryName": "James Cagney",
+            "birthYear": "1899",
+            "knownForTitles": [
+                "tt0031867","tt0042041","tt0035575","tt0029870"
+            ]
+        },
+        {
+            "id":"nm0000011",
+            "primaryName": "Gary Cooper",
+            "birthYear": "1901",
+            "knownForTitles": [
+                "tt0034167","tt0035896","tt0044706","tt0027996"
+            ]
+        },
+        {
+            "id":"nm0000012",
+            "primaryName": "Bette Davis",
+            "birthYear": "1908",
+            "knownForTitles": [
+                "tt0035140","tt0042192","tt0031210","tt0056687"
+            ]
+        },
+        {
+            "id":"nm0000013",
+            "primaryName": "Doris Day",
+            "birthYear": "1922",
+            "knownForTitles": [
+                "tt0048317","tt0045591","tt0053172","tt0049470"
+            ]
+        },
+        {
+            "id":"nm0000014",
+            "primaryName": "Olivia de Havilland",
+            "birthYear": "1916",
+            "knownForTitles": [
+                "tt0040806","tt0029843","tt0041452","tt0031381"
+            ]
+        },
+        {
+            "id":"nm0000015",
+            "primaryName": "James Dean",
+            "birthYear": "1931",
+            "knownForTitles": [
+                "tt0049261","tt0048545","tt0048028","tt0039123"
+            ]
+        },
+        {
+            "id":"nm0000016",
+            "primaryName": "Georges Delerue",
+            "birthYear": "1925",
+            "knownForTitles": [
+                "tt0069946","tt8847712","tt0096320","tt0091763"
+            ]
+        },
+        {
+            "id":"nm0000017",
+            "primaryName": "Marlene Dietrich",
+            "birthYear": "1901",
+            "knownForTitles": [
+                "tt0021156","tt0055031","tt0052311","tt0051201"
+            ]
+        },
+        {
+            "id":"nm0000018",
+            "primaryName": "Kirk Douglas",
+            "birthYear": "1916",
+            "knownForTitles": [
+                "tt0080736","tt0054331","tt0049456","tt0043338"
+            ]
+        },
+        {
+            "id":"nm0000019",
+            "primaryName": "Federico Fellini",
+            "birthYear": "1920",
+            "knownForTitles": [
+                "tt0050783","tt0056801","tt0053779","tt0071129"
+            ]
+        },
+        {
+            "id":"nm0000020",
+            "primaryName": "Henry Fonda",
+            "birthYear": "1905",
+            "knownForTitles": [
+                "tt0050083","tt0032551","tt0051207","tt0082846"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+tconst	titleType	primaryTitle	originalTitle	isAdult	startYear	endYear	runtimeMinutes	genres
+tt0072308	movie	The Towering Inferno	The Towering Inferno	0	1974	\N	165	Action,Drama,Thriller
+tt0053137	movie	On the Beach	On the Beach	0	1959	\N	134	Drama,Romance,Sci-Fi
+tt0050419	movie	Funny Face	Funny Face	0	1957	\N	103	Comedy,Musical,Romance
+tt0031983	movie	The Story of Vernon and Irene Castle	The Story of Vernon and Irene Castle	0	1939	\N	93	Biography,Drama,Musical
+tt0071877	movie	Murder on the Orient Express	Murder on the Orient Express	0	1974	\N	128	Crime,Drama,Mystery
+tt0117057	movie	The Mirror Has Two Faces	The Mirror Has Two Faces	0	1996	\N	126	Comedy,Drama,Romance
+tt0037382	movie	To Have and Have Not	To Have and Have Not	0	1944	\N	100	Adventure,Comedy,Film-Noir
+tt0038355	movie	The Big Sleep	The Big Sleep	0	1946	\N	114	Crime,Film-Noir,Mystery
+tt0054452	movie	La Vérité	La vérité	0	1960	\N	128	Drama
+tt0057345	movie	Contempt	Le mépris	0	1963	\N	103	Drama,Romance
+tt0049189	movie	...And God Created Woman	Et Dieu... créa la femme	0	1956	\N	95	Drama,Romance
+tt0056404	movie	Love on a Pillow	Le repos du guerrier	0	1962	\N	102	Drama,Romance
+tt0072562	tvSeries	Saturday Night Live	Saturday Night Live	0	1975	\N	90	Comedy,Music
+tt0078723	movie	1941	1941	0	1979	\N	118	Action,Comedy,War
+tt0080455	movie	The Blues Brothers	The Blues Brothers	0	1980	\N	133	Action,Adventure,Comedy
+tt0077975	movie	National Lampoon's Animal House	National Lampoon's Animal House	0	1978	\N	109	Comedy
+tt0060827	movie	Persona	Persona	0	1966	\N	85	Drama,Thriller
+tt0050976	movie	The Seventh Seal	Det sjunde inseglet	0	1957	\N	96	Drama,Fantasy
+tt0050986	movie	Wild Strawberries	Smultronstället	0	1957	\N	91	Drama,Romance
+tt0083922	movie	Fanny and Alexander	Fanny och Alexander	0	1982	\N	188	Drama
+tt0077711	movie	Autumn Sonata	Höstsonaten	0	1978	\N	99	Drama,Music
+tt0038109	movie	Spellbound	Spellbound	0	1945	\N	111	Film-Noir,Mystery,Romance
+tt0036855	movie	Gaslight	Gaslight	0	1944	\N	114	Crime,Drama,Mystery
+tt0034583	movie	Casablanca	Casablanca	0	1942	\N	102	Drama,Romance,War
+tt0042593	movie	In a Lonely Place	In a Lonely Place	0	1950	\N	94	Drama,Film-Noir,Mystery
+tt0043265	movie	The African Queen	The African Queen	0	1951	\N	105	Adventure,Drama,Romance
+tt0034583	movie	Casablanca	Casablanca	0	1942	\N	102	Drama,Romance,War
+tt0037382	movie	To Have and Have Not	To Have and Have Not	0	1944	\N	100	Adventure,Comedy,Film-Noir
+tt0047296	movie	On the Waterfront	On the Waterfront	0	1954	\N	108	Crime,Drama,Thriller
+tt0078788	movie	Apocalypse Now	Apocalypse Now	0	1979	\N	147	Drama,Mystery,War
+tt0070849	movie	Last Tango in Paris	Ultimo tango a Parigi	0	1972	\N	129	Drama,Romance
+tt0068646	movie	The Godfather	The Godfather	0	1972	\N	175	Crime,Drama
+tt0057877	movie	Becket	Becket	0	1964	\N	148	Biography,Drama,History
+tt0059749	movie	The Spy Who Came in from the Cold	The Spy Who Came in from the Cold	0	1965	\N	112	Drama,Thriller
+tt0061184	movie	Who's Afraid of Virginia Woolf?	Who's Afraid of Virginia Woolf?	0	1966	\N	131	Drama
+tt0087803	movie	1984	Nineteen Eighty-Four	0	1984	\N	113	Drama,Sci-Fi
+tt0031867	movie	The Roaring Twenties	The Roaring Twenties	0	1939	\N	106	Crime,Drama,Film-Noir
+tt0042041	movie	White Heat	White Heat	0	1949	\N	114	Action,Crime,Drama
+tt0035575	movie	Yankee Doodle Dandy	Yankee Doodle Dandy	0	1942	\N	126	Biography,Drama,Family
+tt0029870	movie	Angels with Dirty Faces	Angels with Dirty Faces	0	1938	\N	97	Crime,Drama,Film-Noir
+tt0034167	movie	Sergeant York	Sergeant York	0	1941	\N	134	Biography,Drama,History
+tt0035896	movie	For Whom the Bell Tolls	For Whom the Bell Tolls	0	1943	\N	170	Adventure,Drama,History
+tt0044706	movie	High Noon	High Noon	0	1952	\N	85	Drama,Thriller,Western
+tt0027996	movie	Mr. Deeds Goes to Town	Mr. Deeds Goes to Town	0	1936	\N	115	Comedy,Drama,Romance
+tt0035140	movie	Now, Voyager	Now, Voyager	0	1942	\N	117	Drama,Romance
+tt0042192	movie	All About Eve	All About Eve	0	1950	\N	138	Drama
+tt0031210	movie	Dark Victory	Dark Victory	0	1939	\N	104	Drama,Romance
+tt0056687	movie	What Ever Happened to Baby Jane?	What Ever Happened to Baby Jane?	0	1962	\N	134	Drama,Horror,Thriller
+tt0048317	movie	Love Me or Leave Me	Love Me or Leave Me	0	1955	\N	122	Biography,Drama,Music
+tt0045591	movie	Calamity Jane	Calamity Jane	0	1953	\N	101	Musical,Romance,Western
+tt0053172	movie	Pillow Talk	Pillow Talk	0	1959	\N	102	Comedy,Romance
+tt0049470	movie	The Man Who Knew Too Much	The Man Who Knew Too Much	0	1956	\N	120	Drama,Thriller
+tt0040806	movie	The Snake Pit	The Snake Pit	0	1948	\N	108	Drama,Mystery
+tt0029843	movie	The Adventures of Robin Hood	The Adventures of Robin Hood	0	1938	\N	102	Action,Adventure,Romance
+tt0041452	movie	The Heiress	The Heiress	0	1949	\N	115	Drama,Romance
+tt0031381	movie	Gone with the Wind	Gone with the Wind	0	1939	\N	238	Drama,History,Romance
+tt0049261	movie	Giant	Giant	0	1956	\N	201	Drama,Western
+tt0048545	movie	Rebel Without a Cause	Rebel Without a Cause	0	1955	\N	111	Drama
+tt0048028	movie	East of Eden	East of Eden	0	1955	\N	118	Drama
+tt0039123	tvSeries	Kraft Theatre	Kraft Television Theatre	0	1947	1958	60	Drama
+tt0069946	movie	The Day of the Dolphin	The Day of the Dolphin	0	1973	\N	104	Drama,Sci-Fi,Thriller
+tt8847712	movie	The French Dispatch	The French Dispatch	0	2021	\N	107	Comedy,Drama,Romance
+tt0096320	movie	Twins	Twins	0	1988	\N	107	Comedy,Crime
+tt0091763	movie	Platoon	Platoon	0	1986	\N	120	Drama,War
+tt0021156	movie	Morocco	Morocco	0	1930	\N	92	Drama,Romance
+tt0055031	movie	Judgment at Nuremberg	Judgment at Nuremberg	0	1961	\N	179	Drama,War
+tt0052311	movie	Touch of Evil	Touch of Evil	0	1958	\N	95	Crime,Drama,Film-Noir
+tt0051201	movie	Witness for the Prosecution	Witness for the Prosecution	0	1957	\N	116	Crime,Drama,Mystery
+tt0080736	movie	The Final Countdown	The Final Countdown	0	1980	\N	103	Action,Adventure,Sci-Fi
+tt0054331	movie	Spartacus	Spartacus	0	1960	\N	197	Adventure,Biography,Drama
+tt0049456	movie	Lust for Life	Lust for Life	0	1956	\N	122	Biography,Drama
+tt0043338	movie	Ace in the Hole	Ace in the Hole	0	1951	\N	111	Drama,Film-Noir
+tt0050783	movie	Nights of Cabiria	Le notti di Cabiria	0	1957	\N	110	Drama
+tt0056801	movie	8½	8½	0	1963	\N	138	Drama
+tt0053779	movie	La Dolce Vita	La dolce vita	0	1960	\N	174	Comedy,Drama
+tt0071129	movie	Amarcord	Amarcord	0	1973	\N	123	Comedy,Drama
+tt0050083	movie	12 Angry Men	12 Angry Men	0	1957	\N	96	Crime,Drama
+tt0032551	movie	The Grapes of Wrath	The Grapes of Wrath	0	1940	\N	129	Drama
+tt0051207	movie	The Wrong Man	The Wrong Man	0	1956	\N	105	Drama,Film-Noir
+tt0082846	movie	On Golden Pond	On Golden Pond	0	1981	\N	109	Drama

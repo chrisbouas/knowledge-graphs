@@ -1,0 +1,122 @@
+@prefix : <http://www.semanticweb.org/chris/project5/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/chris/project5/> .
+
+<http://www.semanticweb.org/chris/project5/> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/chris/project5/#aboutMovie
+<http://www.semanticweb.org/chris/project5/#aboutMovie> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdf:type owl:FunctionalProperty ,
+                                                                 owl:InverseFunctionalProperty ;
+                                                        rdfs:domain <http://www.semanticweb.org/chris/project5/#Rating> ;
+                                                        rdfs:range <http://www.semanticweb.org/chris/project5/#Movie> .
+
+
+###  http://www.semanticweb.org/chris/project5/#knownForTitle
+<http://www.semanticweb.org/chris/project5/#knownForTitle> rdf:type owl:ObjectProperty ;
+                                                           rdfs:subPropertyOf owl:topObjectProperty ;
+                                                           rdfs:domain <http://www.semanticweb.org/chris/project5/#Actor> ;
+                                                           rdfs:range <http://www.semanticweb.org/chris/project5/#Movie> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/chris/project5/#actorId
+<http://www.semanticweb.org/chris/project5/#actorId> rdf:type owl:DatatypeProperty ;
+                                                     rdfs:subPropertyOf owl:topDataProperty ;
+                                                     rdf:type owl:FunctionalProperty ;
+                                                     rdfs:domain <http://www.semanticweb.org/chris/project5/#Actor> ;
+                                                     rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/chris/project5/#average
+<http://www.semanticweb.org/chris/project5/#average> rdf:type owl:DatatypeProperty ;
+                                                     rdfs:subPropertyOf owl:topDataProperty ;
+                                                     rdfs:domain <http://www.semanticweb.org/chris/project5/#Rating> ;
+                                                     rdfs:range xsd:double .
+
+
+###  http://www.semanticweb.org/chris/project5/#birthYear
+<http://www.semanticweb.org/chris/project5/#birthYear> rdf:type owl:DatatypeProperty ;
+                                                       rdfs:subPropertyOf owl:topDataProperty ;
+                                                       rdfs:domain <http://www.semanticweb.org/chris/project5/#Actor> ;
+                                                       rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/chris/project5/#movieId
+<http://www.semanticweb.org/chris/project5/#movieId> rdf:type owl:DatatypeProperty ;
+                                                     rdfs:subPropertyOf owl:topDataProperty ;
+                                                     rdfs:domain <http://www.semanticweb.org/chris/project5/#Movie> ;
+                                                     rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/chris/project5/#primaryName
+<http://www.semanticweb.org/chris/project5/#primaryName> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://www.semanticweb.org/chris/project5/#Actor> ;
+                                                         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/chris/project5/#primaryTitle
+<http://www.semanticweb.org/chris/project5/#primaryTitle> rdf:type owl:DatatypeProperty ;
+                                                          rdfs:subPropertyOf owl:topDataProperty ;
+                                                          rdfs:domain <http://www.semanticweb.org/chris/project5/#Movie> ;
+                                                          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/chris/project5/#runtimeMinutes
+<http://www.semanticweb.org/chris/project5/#runtimeMinutes> rdf:type owl:DatatypeProperty ;
+                                                            rdfs:subPropertyOf owl:topDataProperty ;
+                                                            rdfs:domain <http://www.semanticweb.org/chris/project5/#Movie> ;
+                                                            rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/chris/project5/#startYear
+<http://www.semanticweb.org/chris/project5/#startYear> rdf:type owl:DatatypeProperty ;
+                                                       rdfs:subPropertyOf owl:topDataProperty ;
+                                                       rdfs:domain <http://www.semanticweb.org/chris/project5/#Movie> ;
+                                                       rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/chris/project5/#titleType
+<http://www.semanticweb.org/chris/project5/#titleType> rdf:type owl:DatatypeProperty ;
+                                                       rdfs:subPropertyOf owl:topDataProperty ;
+                                                       rdfs:domain <http://www.semanticweb.org/chris/project5/#Movie> ;
+                                                       rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/chris/project5/#total
+<http://www.semanticweb.org/chris/project5/#total> rdf:type owl:DatatypeProperty ;
+                                                   rdfs:subPropertyOf owl:topDataProperty ;
+                                                   rdfs:domain <http://www.semanticweb.org/chris/project5/#Rating> ;
+                                                   rdfs:range xsd:integer .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/chris/project5/#Actor
+<http://www.semanticweb.org/chris/project5/#Actor> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/chris/project5/#Movie
+<http://www.semanticweb.org/chris/project5/#Movie> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/chris/project5/#Rating
+<http://www.semanticweb.org/chris/project5/#Rating> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

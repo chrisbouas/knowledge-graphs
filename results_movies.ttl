@@ -1,0 +1,1085 @@
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix domain: <http://www.semanticweb.org/chris/project5/#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semanticweb.org/chris/project5/data/nm0000001> a domain:Actor;
+  domain:actorId "nm0000001";
+  domain:birthYear 1899;
+  domain:knownForTitle <http://www.semanticweb.org/chris/project5/data/tt0031983>, <http://www.semanticweb.org/chris/project5/data/tt0050419>,
+    <http://www.semanticweb.org/chris/project5/data/tt0053137>, <http://www.semanticweb.org/chris/project5/data/tt0072308>;
+  domain:primaryName "Fred Astaire" .
+
+<http://www.semanticweb.org/chris/project5/data/nm0000002> a domain:Actor;
+  domain:actorId "nm0000002";
+  domain:birthYear 1924;
+  domain:knownForTitle <http://www.semanticweb.org/chris/project5/data/tt0037382>, <http://www.semanticweb.org/chris/project5/data/tt0038355>,
+    <http://www.semanticweb.org/chris/project5/data/tt0071877>, <http://www.semanticweb.org/chris/project5/data/tt0117057>;
+  domain:primaryName "Lauren Bacall" .
+
+<http://www.semanticweb.org/chris/project5/data/nm0000003> a domain:Actor;
+  domain:actorId "nm0000003";
+  domain:birthYear 1934;
+  domain:knownForTitle <http://www.semanticweb.org/chris/project5/data/tt0049189>, <http://www.semanticweb.org/chris/project5/data/tt0054452>,
+    <http://www.semanticweb.org/chris/project5/data/tt0056404>, <http://www.semanticweb.org/chris/project5/data/tt0057345>;
+  domain:primaryName "Brigitte Bardot" .
+
+<http://www.semanticweb.org/chris/project5/data/nm0000004> a domain:Actor;
+  domain:actorId "nm0000004";
+  domain:birthYear 1949;
+  domain:knownForTitle <http://www.semanticweb.org/chris/project5/data/tt0072562>, <http://www.semanticweb.org/chris/project5/data/tt0077975>,
+    <http://www.semanticweb.org/chris/project5/data/tt0078723>, <http://www.semanticweb.org/chris/project5/data/tt0080455>;
+  domain:primaryName "John Belushi" .
+
+<http://www.semanticweb.org/chris/project5/data/nm0000005> a domain:Actor;
+  domain:actorId "nm0000005";
+  domain:birthYear 1918;
+  domain:knownForTitle <http://www.semanticweb.org/chris/project5/data/tt0050976>, <http://www.semanticweb.org/chris/project5/data/tt0050986>,
+    <http://www.semanticweb.org/chris/project5/data/tt0060827>, <http://www.semanticweb.org/chris/project5/data/tt0083922>;
+  domain:primaryName "Ingmar Bergman" .
+
+<http://www.semanticweb.org/chris/project5/data/nm0000006> a domain:Actor;
+  domain:actorId "nm0000006";
+  domain:birthYear 1915;
+  domain:knownForTitle <http://www.semanticweb.org/chris/project5/data/tt0034583>, <http://www.semanticweb.org/chris/project5/data/tt0036855>,
+    <http://www.semanticweb.org/chris/project5/data/tt0038109>, <http://www.semanticweb.org/chris/project5/data/tt0077711>;
+  domain:primaryName "Ingrid Bergman" .
+
+<http://www.semanticweb.org/chris/project5/data/nm0000007> a domain:Actor;
+  domain:actorId "nm0000007";
+  domain:birthYear 1899;
+  domain:knownForTitle <http://www.semanticweb.org/chris/project5/data/tt0034583>, <http://www.semanticweb.org/chris/project5/data/tt0037382>,
+    <http://www.semanticweb.org/chris/project5/data/tt0042593>, <http://www.semanticweb.org/chris/project5/data/tt0043265>;
+  domain:primaryName "Humphrey Bogart" .
+
+<http://www.semanticweb.org/chris/project5/data/nm0000008> a domain:Actor;
+  domain:actorId "nm0000008";
+  domain:birthYear 1924;
+  domain:knownForTitle <http://www.semanticweb.org/chris/project5/data/tt0047296>, <http://www.semanticweb.org/chris/project5/data/tt0068646>,
+    <http://www.semanticweb.org/chris/project5/data/tt0070849>, <http://www.semanticweb.org/chris/project5/data/tt0078788>;
+  domain:primaryName "Marlon Brando" .
+
+<http://www.semanticweb.org/chris/project5/data/nm0000009> a domain:Actor;
+  domain:actorId "nm0000009";
+  domain:birthYear 1925;
+  domain:knownForTitle <http://www.semanticweb.org/chris/project5/data/tt0057877>, <http://www.semanticweb.org/chris/project5/data/tt0059749>,
+    <http://www.semanticweb.org/chris/project5/data/tt0061184>, <http://www.semanticweb.org/chris/project5/data/tt0087803>;
+  domain:primaryName "Richard Burton" .
+
+<http://www.semanticweb.org/chris/project5/data/nm0000010> a domain:Actor;
+  domain:actorId "nm0000010";
+  domain:birthYear 1899;
+  domain:knownForTitle <http://www.semanticweb.org/chris/project5/data/tt0029870>, <http://www.semanticweb.org/chris/project5/data/tt0031867>,
+    <http://www.semanticweb.org/chris/project5/data/tt0035575>, <http://www.semanticweb.org/chris/project5/data/tt0042041>;
+  domain:primaryName "James Cagney" .
+
+<http://www.semanticweb.org/chris/project5/data/nm0000011> a domain:Actor;
+  domain:actorId "nm0000011";
+  domain:birthYear 1901;
+  domain:knownForTitle <http://www.semanticweb.org/chris/project5/data/tt0027996>, <http://www.semanticweb.org/chris/project5/data/tt0034167>,
+    <http://www.semanticweb.org/chris/project5/data/tt0035896>, <http://www.semanticweb.org/chris/project5/data/tt0044706>;
+  domain:primaryName "Gary Cooper" .
+
+<http://www.semanticweb.org/chris/project5/data/nm0000012> a domain:Actor;
+  domain:actorId "nm0000012";
+  domain:birthYear 1908;
+  domain:knownForTitle <http://www.semanticweb.org/chris/project5/data/tt0031210>, <http://www.semanticweb.org/chris/project5/data/tt0035140>,
+    <http://www.semanticweb.org/chris/project5/data/tt0042192>, <http://www.semanticweb.org/chris/project5/data/tt0056687>;
+  domain:primaryName "Bette Davis" .
+
+<http://www.semanticweb.org/chris/project5/data/nm0000013> a domain:Actor;
+  domain:actorId "nm0000013";
+  domain:birthYear 1922;
+  domain:knownForTitle <http://www.semanticweb.org/chris/project5/data/tt0045591>, <http://www.semanticweb.org/chris/project5/data/tt0048317>,
+    <http://www.semanticweb.org/chris/project5/data/tt0049470>, <http://www.semanticweb.org/chris/project5/data/tt0053172>;
+  domain:primaryName "Doris Day" .
+
+<http://www.semanticweb.org/chris/project5/data/nm0000014> a domain:Actor;
+  domain:actorId "nm0000014";
+  domain:birthYear 1916;
+  domain:knownForTitle <http://www.semanticweb.org/chris/project5/data/tt0029843>, <http://www.semanticweb.org/chris/project5/data/tt0031381>,
+    <http://www.semanticweb.org/chris/project5/data/tt0040806>, <http://www.semanticweb.org/chris/project5/data/tt0041452>;
+  domain:primaryName "Olivia de Havilland" .
+
+<http://www.semanticweb.org/chris/project5/data/nm0000015> a domain:Actor;
+  domain:actorId "nm0000015";
+  domain:birthYear 1931;
+  domain:knownForTitle <http://www.semanticweb.org/chris/project5/data/tt0039123>, <http://www.semanticweb.org/chris/project5/data/tt0048028>,
+    <http://www.semanticweb.org/chris/project5/data/tt0048545>, <http://www.semanticweb.org/chris/project5/data/tt0049261>;
+  domain:primaryName "James Dean" .
+
+<http://www.semanticweb.org/chris/project5/data/nm0000016> a domain:Actor;
+  domain:actorId "nm0000016";
+  domain:birthYear 1925;
+  domain:knownForTitle <http://www.semanticweb.org/chris/project5/data/tt0069946>, <http://www.semanticweb.org/chris/project5/data/tt0091763>,
+    <http://www.semanticweb.org/chris/project5/data/tt0096320>, <http://www.semanticweb.org/chris/project5/data/tt8847712>;
+  domain:primaryName "Georges Delerue" .
+
+<http://www.semanticweb.org/chris/project5/data/nm0000017> a domain:Actor;
+  domain:actorId "nm0000017";
+  domain:birthYear 1901;
+  domain:knownForTitle <http://www.semanticweb.org/chris/project5/data/tt0021156>, <http://www.semanticweb.org/chris/project5/data/tt0051201>,
+    <http://www.semanticweb.org/chris/project5/data/tt0052311>, <http://www.semanticweb.org/chris/project5/data/tt0055031>;
+  domain:primaryName "Marlene Dietrich" .
+
+<http://www.semanticweb.org/chris/project5/data/nm0000018> a domain:Actor;
+  domain:actorId "nm0000018";
+  domain:birthYear 1916;
+  domain:knownForTitle <http://www.semanticweb.org/chris/project5/data/tt0043338>, <http://www.semanticweb.org/chris/project5/data/tt0049456>,
+    <http://www.semanticweb.org/chris/project5/data/tt0054331>, <http://www.semanticweb.org/chris/project5/data/tt0080736>;
+  domain:primaryName "Kirk Douglas" .
+
+<http://www.semanticweb.org/chris/project5/data/nm0000019> a domain:Actor;
+  domain:actorId "nm0000019";
+  domain:birthYear 1920;
+  domain:knownForTitle <http://www.semanticweb.org/chris/project5/data/tt0050783>, <http://www.semanticweb.org/chris/project5/data/tt0053779>,
+    <http://www.semanticweb.org/chris/project5/data/tt0056801>, <http://www.semanticweb.org/chris/project5/data/tt0071129>;
+  domain:primaryName "Federico Fellini" .
+
+<http://www.semanticweb.org/chris/project5/data/nm0000020> a domain:Actor;
+  domain:actorId "nm0000020";
+  domain:birthYear 1905;
+  domain:knownForTitle <http://www.semanticweb.org/chris/project5/data/tt0032551>, <http://www.semanticweb.org/chris/project5/data/tt0050083>,
+    <http://www.semanticweb.org/chris/project5/data/tt0051207>, <http://www.semanticweb.org/chris/project5/data/tt0082846>;
+  domain:primaryName "Henry Fonda" .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0021156> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0021156>;
+  domain:average 7.0E0;
+  domain:total 6663 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0027996> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0027996>;
+  domain:average 7.8E0;
+  domain:total 21367 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0029843> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0029843>;
+  domain:average 7.9E0;
+  domain:total 50617 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0029870> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0029870>;
+  domain:average 7.9E0;
+  domain:total 21403 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0031210> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0031210>;
+  domain:average 7.5E0;
+  domain:total 11072 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0031381> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0031381>;
+  domain:average 8.2E0;
+  domain:total 310164 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0031867> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0031867>;
+  domain:average 7.9E0;
+  domain:total 13899 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0031983> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0031983>;
+  domain:average 6.9E0;
+  domain:total 2570 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0032551> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0032551>;
+  domain:average 8.1E0;
+  domain:total 91628 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0034167> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0034167>;
+  domain:average 7.7E0;
+  domain:total 18162 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0034583> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0034583>;
+  domain:average 8.5E0;
+  domain:total 559393 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0035140> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0035140>;
+  domain:average 7.9E0;
+  domain:total 16818 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0035575> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0035575>;
+  domain:average 7.6E0;
+  domain:total 15407 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0035896> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0035896>;
+  domain:average 6.8E0;
+  domain:total 9284 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0036855> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0036855>;
+  domain:average 7.8E0;
+  domain:total 28282 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0037382> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0037382>;
+  domain:average 7.8E0;
+  domain:total 34221 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0038109> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0038109>;
+  domain:average 7.5E0;
+  domain:total 48052 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0038355> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0038355>;
+  domain:average 7.9E0;
+  domain:total 84582 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0039123> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0039123>;
+  domain:average 8.2E0;
+  domain:total 188 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0040806> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0040806>;
+  domain:average 7.6E0;
+  domain:total 7628 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0041452> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0041452>;
+  domain:average 8.1E0;
+  domain:total 15685 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0042041> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0042041>;
+  domain:average 8.1E0;
+  domain:total 32455 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0042192> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0042192>;
+  domain:average 8.2E0;
+  domain:total 129585 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0042593> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0042593>;
+  domain:average 7.9E0;
+  domain:total 30986 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0043265> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0043265>;
+  domain:average 7.7E0;
+  domain:total 77846 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0043338> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0043338>;
+  domain:average 8.1E0;
+  domain:total 35360 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0044706> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0044706>;
+  domain:average 8.0E0;
+  domain:total 103133 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0045591> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0045591>;
+  domain:average 7.2E0;
+  domain:total 9891 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0047296> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0047296>;
+  domain:average 8.1E0;
+  domain:total 152737 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0048028> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0048028>;
+  domain:average 7.8E0;
+  domain:total 44976 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0048317> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0048317>;
+  domain:average 7.1E0;
+  domain:total 4226 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0048545> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0048545>;
+  domain:average 7.7E0;
+  domain:total 89439 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0049189> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0049189>;
+  domain:average 6.3E0;
+  domain:total 8350 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0049261> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0049261>;
+  domain:average 7.6E0;
+  domain:total 38264 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0049456> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0049456>;
+  domain:average 7.3E0;
+  domain:total 11640 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0049470> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0049470>;
+  domain:average 7.4E0;
+  domain:total 63833 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0050083> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0050083>;
+  domain:average 9.0E0;
+  domain:total 763788 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0050419> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0050419>;
+  domain:average 7.0E0;
+  domain:total 29880 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0050783> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0050783>;
+  domain:average 8.1E0;
+  domain:total 48310 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0050976> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0050976>;
+  domain:average 8.1E0;
+  domain:total 181771 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0050986> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0050986>;
+  domain:average 8.1E0;
+  domain:total 105658 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0051201> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0051201>;
+  domain:average 8.4E0;
+  domain:total 122088 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0051207> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0051207>;
+  domain:average 7.4E0;
+  domain:total 28189 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0052311> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0052311>;
+  domain:average 8.0E0;
+  domain:total 103480 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0053137> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0053137>;
+  domain:average 7.1E0;
+  domain:total 12950 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0053172> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0053172>;
+  domain:average 7.4E0;
+  domain:total 17219 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0053779> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0053779>;
+  domain:average 8.0E0;
+  domain:total 72034 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0054331> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0054331>;
+  domain:average 7.9E0;
+  domain:total 133203 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0054452> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0054452>;
+  domain:average 7.6E0;
+  domain:total 3808 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0055031> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0055031>;
+  domain:average 8.3E0;
+  domain:total 76263 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0056404> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0056404>;
+  domain:average 5.4E0;
+  domain:total 623 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0056687> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0056687>;
+  domain:average 8.0E0;
+  domain:total 54987 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0056801> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0056801>;
+  domain:average 8.0E0;
+  domain:total 116418 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0057345> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0057345>;
+  domain:average 7.5E0;
+  domain:total 31543 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0057877> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0057877>;
+  domain:average 7.8E0;
+  domain:total 14635 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0059749> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0059749>;
+  domain:average 7.6E0;
+  domain:total 16955 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0060827> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0060827>;
+  domain:average 8.1E0;
+  domain:total 115595 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0061184> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0061184>;
+  domain:average 8.0E0;
+  domain:total 74429 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0068646> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0068646>;
+  domain:average 9.2E0;
+  domain:total 1781216 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0069946> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0069946>;
+  domain:average 6.0E0;
+  domain:total 3156 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0070849> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0070849>;
+  domain:average 6.9E0;
+  domain:total 53374 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0071129> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0071129>;
+  domain:average 7.9E0;
+  domain:total 43120 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0071877> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0071877>;
+  domain:average 7.3E0;
+  domain:total 61607 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0072308> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0072308>;
+  domain:average 7.0E0;
+  domain:total 43182 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0072562> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0072562>;
+  domain:average 8.0E0;
+  domain:total 47921 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0077711> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0077711>;
+  domain:average 8.1E0;
+  domain:total 33695 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0077975> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0077975>;
+  domain:average 7.4E0;
+  domain:total 119490 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0078723> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0078723>;
+  domain:average 5.8E0;
+  domain:total 33454 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0078788> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0078788>;
+  domain:average 8.5E0;
+  domain:total 650928 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0080455> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0080455>;
+  domain:average 7.9E0;
+  domain:total 195800 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0080736> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0080736>;
+  domain:average 6.6E0;
+  domain:total 23652 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0082846> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0082846>;
+  domain:average 7.6E0;
+  domain:total 31130 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0083922> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0083922>;
+  domain:average 8.1E0;
+  domain:total 63169 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0087803> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0087803>;
+  domain:average 7.1E0;
+  domain:total 71548 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0091763> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0091763>;
+  domain:average 8.1E0;
+  domain:total 406615 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0096320> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0096320>;
+  domain:average 6.1E0;
+  domain:total 122931 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt0117057> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt0117057>;
+  domain:average 6.6E0;
+  domain:total 19872 .
+
+<http://www.semanticweb.org/chris/project5/data/rating_for_tt8847712> a domain:Rating;
+  domain:aboutMovie <http://www.semanticweb.org/chris/project5/data/tt8847712>;
+  domain:average 7.2E0;
+  domain:total 104896 .
+
+<http://www.semanticweb.org/chris/project5/data/tt0021156> a domain:Movie;
+  domain:movieId "tt0021156";
+  domain:primaryTitle "Morocco";
+  domain:runtimeMinutes 92;
+  domain:startYear 1930;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0027996> a domain:Movie;
+  domain:movieId "tt0027996";
+  domain:primaryTitle "Mr. Deeds Goes to Town";
+  domain:runtimeMinutes 115;
+  domain:startYear 1936;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0029843> a domain:Movie;
+  domain:movieId "tt0029843";
+  domain:primaryTitle "The Adventures of Robin Hood";
+  domain:runtimeMinutes 102;
+  domain:startYear 1938;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0029870> a domain:Movie;
+  domain:movieId "tt0029870";
+  domain:primaryTitle "Angels with Dirty Faces";
+  domain:runtimeMinutes 97;
+  domain:startYear 1938;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0031210> a domain:Movie;
+  domain:movieId "tt0031210";
+  domain:primaryTitle "Dark Victory";
+  domain:runtimeMinutes 104;
+  domain:startYear 1939;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0031381> a domain:Movie;
+  domain:movieId "tt0031381";
+  domain:primaryTitle "Gone with the Wind";
+  domain:runtimeMinutes 238;
+  domain:startYear 1939;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0031867> a domain:Movie;
+  domain:movieId "tt0031867";
+  domain:primaryTitle "The Roaring Twenties";
+  domain:runtimeMinutes 106;
+  domain:startYear 1939;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0031983> a domain:Movie;
+  domain:movieId "tt0031983";
+  domain:primaryTitle "The Story of Vernon and Irene Castle";
+  domain:runtimeMinutes 93;
+  domain:startYear 1939;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0032551> a domain:Movie;
+  domain:movieId "tt0032551";
+  domain:primaryTitle "The Grapes of Wrath";
+  domain:runtimeMinutes 129;
+  domain:startYear 1940;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0034167> a domain:Movie;
+  domain:movieId "tt0034167";
+  domain:primaryTitle "Sergeant York";
+  domain:runtimeMinutes 134;
+  domain:startYear 1941;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0034583> a domain:Movie;
+  domain:movieId "tt0034583";
+  domain:primaryTitle "Casablanca";
+  domain:runtimeMinutes 102;
+  domain:startYear 1942;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0035140> a domain:Movie;
+  domain:movieId "tt0035140";
+  domain:primaryTitle "Now, Voyager";
+  domain:runtimeMinutes 117;
+  domain:startYear 1942;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0035575> a domain:Movie;
+  domain:movieId "tt0035575";
+  domain:primaryTitle "Yankee Doodle Dandy";
+  domain:runtimeMinutes 126;
+  domain:startYear 1942;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0035896> a domain:Movie;
+  domain:movieId "tt0035896";
+  domain:primaryTitle "For Whom the Bell Tolls";
+  domain:runtimeMinutes 170;
+  domain:startYear 1943;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0036855> a domain:Movie;
+  domain:movieId "tt0036855";
+  domain:primaryTitle "Gaslight";
+  domain:runtimeMinutes 114;
+  domain:startYear 1944;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0037382> a domain:Movie;
+  domain:movieId "tt0037382";
+  domain:primaryTitle "To Have and Have Not";
+  domain:runtimeMinutes 100;
+  domain:startYear 1944;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0038109> a domain:Movie;
+  domain:movieId "tt0038109";
+  domain:primaryTitle "Spellbound";
+  domain:runtimeMinutes 111;
+  domain:startYear 1945;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0038355> a domain:Movie;
+  domain:movieId "tt0038355";
+  domain:primaryTitle "The Big Sleep";
+  domain:runtimeMinutes 114;
+  domain:startYear 1946;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0039123> a domain:Movie;
+  domain:movieId "tt0039123";
+  domain:primaryTitle "Kraft Theatre";
+  domain:runtimeMinutes 60;
+  domain:startYear 1947;
+  domain:titleType "tvSeries" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0040806> a domain:Movie;
+  domain:movieId "tt0040806";
+  domain:primaryTitle "The Snake Pit";
+  domain:runtimeMinutes 108;
+  domain:startYear 1948;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0041452> a domain:Movie;
+  domain:movieId "tt0041452";
+  domain:primaryTitle "The Heiress";
+  domain:runtimeMinutes 115;
+  domain:startYear 1949;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0042041> a domain:Movie;
+  domain:movieId "tt0042041";
+  domain:primaryTitle "White Heat";
+  domain:runtimeMinutes 114;
+  domain:startYear 1949;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0042192> a domain:Movie;
+  domain:movieId "tt0042192";
+  domain:primaryTitle "All About Eve";
+  domain:runtimeMinutes 138;
+  domain:startYear 1950;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0042593> a domain:Movie;
+  domain:movieId "tt0042593";
+  domain:primaryTitle "In a Lonely Place";
+  domain:runtimeMinutes 94;
+  domain:startYear 1950;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0043265> a domain:Movie;
+  domain:movieId "tt0043265";
+  domain:primaryTitle "The African Queen";
+  domain:runtimeMinutes 105;
+  domain:startYear 1951;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0043338> a domain:Movie;
+  domain:movieId "tt0043338";
+  domain:primaryTitle "Ace in the Hole";
+  domain:runtimeMinutes 111;
+  domain:startYear 1951;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0044706> a domain:Movie;
+  domain:movieId "tt0044706";
+  domain:primaryTitle "High Noon";
+  domain:runtimeMinutes 85;
+  domain:startYear 1952;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0045591> a domain:Movie;
+  domain:movieId "tt0045591";
+  domain:primaryTitle "Calamity Jane";
+  domain:runtimeMinutes 101;
+  domain:startYear 1953;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0047296> a domain:Movie;
+  domain:movieId "tt0047296";
+  domain:primaryTitle "On the Waterfront";
+  domain:runtimeMinutes 108;
+  domain:startYear 1954;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0048028> a domain:Movie;
+  domain:movieId "tt0048028";
+  domain:primaryTitle "East of Eden";
+  domain:runtimeMinutes 118;
+  domain:startYear 1955;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0048317> a domain:Movie;
+  domain:movieId "tt0048317";
+  domain:primaryTitle "Love Me or Leave Me";
+  domain:runtimeMinutes 122;
+  domain:startYear 1955;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0048545> a domain:Movie;
+  domain:movieId "tt0048545";
+  domain:primaryTitle "Rebel Without a Cause";
+  domain:runtimeMinutes 111;
+  domain:startYear 1955;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0049189> a domain:Movie;
+  domain:movieId "tt0049189";
+  domain:primaryTitle "...And God Created Woman";
+  domain:runtimeMinutes 95;
+  domain:startYear 1956;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0049261> a domain:Movie;
+  domain:movieId "tt0049261";
+  domain:primaryTitle "Giant";
+  domain:runtimeMinutes 201;
+  domain:startYear 1956;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0049456> a domain:Movie;
+  domain:movieId "tt0049456";
+  domain:primaryTitle "Lust for Life";
+  domain:runtimeMinutes 122;
+  domain:startYear 1956;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0049470> a domain:Movie;
+  domain:movieId "tt0049470";
+  domain:primaryTitle "The Man Who Knew Too Much";
+  domain:runtimeMinutes 120;
+  domain:startYear 1956;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0050083> a domain:Movie;
+  domain:movieId "tt0050083";
+  domain:primaryTitle "12 Angry Men";
+  domain:runtimeMinutes 96;
+  domain:startYear 1957;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0050419> a domain:Movie;
+  domain:movieId "tt0050419";
+  domain:primaryTitle "Funny Face";
+  domain:runtimeMinutes 103;
+  domain:startYear 1957;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0050783> a domain:Movie;
+  domain:movieId "tt0050783";
+  domain:primaryTitle "Nights of Cabiria";
+  domain:runtimeMinutes 110;
+  domain:startYear 1957;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0050976> a domain:Movie;
+  domain:movieId "tt0050976";
+  domain:primaryTitle "The Seventh Seal";
+  domain:runtimeMinutes 96;
+  domain:startYear 1957;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0050986> a domain:Movie;
+  domain:movieId "tt0050986";
+  domain:primaryTitle "Wild Strawberries";
+  domain:runtimeMinutes 91;
+  domain:startYear 1957;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0051201> a domain:Movie;
+  domain:movieId "tt0051201";
+  domain:primaryTitle "Witness for the Prosecution";
+  domain:runtimeMinutes 116;
+  domain:startYear 1957;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0051207> a domain:Movie;
+  domain:movieId "tt0051207";
+  domain:primaryTitle "The Wrong Man";
+  domain:runtimeMinutes 105;
+  domain:startYear 1956;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0052311> a domain:Movie;
+  domain:movieId "tt0052311";
+  domain:primaryTitle "Touch of Evil";
+  domain:runtimeMinutes 95;
+  domain:startYear 1958;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0053137> a domain:Movie;
+  domain:movieId "tt0053137";
+  domain:primaryTitle "On the Beach";
+  domain:runtimeMinutes 134;
+  domain:startYear 1959;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0053172> a domain:Movie;
+  domain:movieId "tt0053172";
+  domain:primaryTitle "Pillow Talk";
+  domain:runtimeMinutes 102;
+  domain:startYear 1959;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0053779> a domain:Movie;
+  domain:movieId "tt0053779";
+  domain:primaryTitle "La Dolce Vita";
+  domain:runtimeMinutes 174;
+  domain:startYear 1960;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0054331> a domain:Movie;
+  domain:movieId "tt0054331";
+  domain:primaryTitle "Spartacus";
+  domain:runtimeMinutes 197;
+  domain:startYear 1960;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0054452> a domain:Movie;
+  domain:movieId "tt0054452";
+  domain:primaryTitle "La Vérité";
+  domain:runtimeMinutes 128;
+  domain:startYear 1960;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0055031> a domain:Movie;
+  domain:movieId "tt0055031";
+  domain:primaryTitle "Judgment at Nuremberg";
+  domain:runtimeMinutes 179;
+  domain:startYear 1961;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0056404> a domain:Movie;
+  domain:movieId "tt0056404";
+  domain:primaryTitle "Love on a Pillow";
+  domain:runtimeMinutes 102;
+  domain:startYear 1962;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0056687> a domain:Movie;
+  domain:movieId "tt0056687";
+  domain:primaryTitle "What Ever Happened to Baby Jane?";
+  domain:runtimeMinutes 134;
+  domain:startYear 1962;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0056801> a domain:Movie;
+  domain:movieId "tt0056801";
+  domain:primaryTitle "8½";
+  domain:runtimeMinutes 138;
+  domain:startYear 1963;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0057345> a domain:Movie;
+  domain:movieId "tt0057345";
+  domain:primaryTitle "Contempt";
+  domain:runtimeMinutes 103;
+  domain:startYear 1963;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0057877> a domain:Movie;
+  domain:movieId "tt0057877";
+  domain:primaryTitle "Becket";
+  domain:runtimeMinutes 148;
+  domain:startYear 1964;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0059749> a domain:Movie;
+  domain:movieId "tt0059749";
+  domain:primaryTitle "The Spy Who Came in from the Cold";
+  domain:runtimeMinutes 112;
+  domain:startYear 1965;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0060827> a domain:Movie;
+  domain:movieId "tt0060827";
+  domain:primaryTitle "Persona";
+  domain:runtimeMinutes 85;
+  domain:startYear 1966;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0061184> a domain:Movie;
+  domain:movieId "tt0061184";
+  domain:primaryTitle "Who's Afraid of Virginia Woolf?";
+  domain:runtimeMinutes 131;
+  domain:startYear 1966;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0068646> a domain:Movie;
+  domain:movieId "tt0068646";
+  domain:primaryTitle "The Godfather";
+  domain:runtimeMinutes 175;
+  domain:startYear 1972;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0069946> a domain:Movie;
+  domain:movieId "tt0069946";
+  domain:primaryTitle "The Day of the Dolphin";
+  domain:runtimeMinutes 104;
+  domain:startYear 1973;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0070849> a domain:Movie;
+  domain:movieId "tt0070849";
+  domain:primaryTitle "Last Tango in Paris";
+  domain:runtimeMinutes 129;
+  domain:startYear 1972;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0071129> a domain:Movie;
+  domain:movieId "tt0071129";
+  domain:primaryTitle "Amarcord";
+  domain:runtimeMinutes 123;
+  domain:startYear 1973;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0071877> a domain:Movie;
+  domain:movieId "tt0071877";
+  domain:primaryTitle "Murder on the Orient Express";
+  domain:runtimeMinutes 128;
+  domain:startYear 1974;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0072308> a domain:Movie;
+  domain:movieId "tt0072308";
+  domain:primaryTitle "The Towering Inferno";
+  domain:runtimeMinutes 165;
+  domain:startYear 1974;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0072562> a domain:Movie;
+  domain:movieId "tt0072562";
+  domain:primaryTitle "Saturday Night Live";
+  domain:runtimeMinutes 90;
+  domain:startYear 1975;
+  domain:titleType "tvSeries" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0077711> a domain:Movie;
+  domain:movieId "tt0077711";
+  domain:primaryTitle "Autumn Sonata";
+  domain:runtimeMinutes 99;
+  domain:startYear 1978;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0077975> a domain:Movie;
+  domain:movieId "tt0077975";
+  domain:primaryTitle "National Lampoon's Animal House";
+  domain:runtimeMinutes 109;
+  domain:startYear 1978;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0078723> a domain:Movie;
+  domain:movieId "tt0078723";
+  domain:primaryTitle "1941";
+  domain:runtimeMinutes 118;
+  domain:startYear 1979;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0078788> a domain:Movie;
+  domain:movieId "tt0078788";
+  domain:primaryTitle "Apocalypse Now";
+  domain:runtimeMinutes 147;
+  domain:startYear 1979;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0080455> a domain:Movie;
+  domain:movieId "tt0080455";
+  domain:primaryTitle "The Blues Brothers";
+  domain:runtimeMinutes 133;
+  domain:startYear 1980;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0080736> a domain:Movie;
+  domain:movieId "tt0080736";
+  domain:primaryTitle "The Final Countdown";
+  domain:runtimeMinutes 103;
+  domain:startYear 1980;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0082846> a domain:Movie;
+  domain:movieId "tt0082846";
+  domain:primaryTitle "On Golden Pond";
+  domain:runtimeMinutes 109;
+  domain:startYear 1981;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0083922> a domain:Movie;
+  domain:movieId "tt0083922";
+  domain:primaryTitle "Fanny and Alexander";
+  domain:runtimeMinutes 188;
+  domain:startYear 1982;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0087803> a domain:Movie;
+  domain:movieId "tt0087803";
+  domain:primaryTitle "1984";
+  domain:runtimeMinutes 113;
+  domain:startYear 1984;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0091763> a domain:Movie;
+  domain:movieId "tt0091763";
+  domain:primaryTitle "Platoon";
+  domain:runtimeMinutes 120;
+  domain:startYear 1986;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0096320> a domain:Movie;
+  domain:movieId "tt0096320";
+  domain:primaryTitle "Twins";
+  domain:runtimeMinutes 107;
+  domain:startYear 1988;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt0117057> a domain:Movie;
+  domain:movieId "tt0117057";
+  domain:primaryTitle "The Mirror Has Two Faces";
+  domain:runtimeMinutes 126;
+  domain:startYear 1996;
+  domain:titleType "movie" .
+
+<http://www.semanticweb.org/chris/project5/data/tt8847712> a domain:Movie;
+  domain:movieId "tt8847712";
+  domain:primaryTitle "The French Dispatch";
+  domain:runtimeMinutes 107;
+  domain:startYear 2021;
+  domain:titleType "movie" .
