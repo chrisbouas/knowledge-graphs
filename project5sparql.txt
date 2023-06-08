@@ -1,0 +1,42 @@
+################ SPARQL ################
+
+
+### a
+
+select ?title where { 
+    ?rating a domain:Rating .
+    ?rating domain:total ?numOfRatings .
+    ?rating domain:aboutMovie ?movie.
+    ?movie a domain:Movie .
+    ?movie domain:primaryTitle ?title .
+}
+order by desc(?numOfRatings)
+limit 1
+
+
+### b
+
+select ?name (avg(?avgRating) as ?average) where { 
+    ?actor a domain:Actor .
+    ?actor domain:primaryName ?name .
+    ?actor domain:knownForTitle ?movie .
+    ?rating a domain:Rating .
+    ?rating domain:average ?avgRating .
+    ?rating domain:aboutMovie ?movie .
+    ?movie a domain:Movie .
+}
+group by ?name
+order by desc(?average)
+limit 1
+
+
+### c
+
+select ?name (avg(?duration) as ?avgRuntimeMinutes) where { 
+    ?actor a domain:Actor .
+    ?actor domain:primaryName ?name .
+    ?actor domain:knownForTitle ?movie .
+    ?movie domain:runtimeMinutes ?duration .
+    ?movie a domain:Movie .
+}
+group by ?name
